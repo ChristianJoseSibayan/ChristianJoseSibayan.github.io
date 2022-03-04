@@ -1,0 +1,22 @@
+* {
+  margin: 10px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: century-gothic, sans-serif;
+  font-style: normal;
+}
+img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: 60% 0;
+  border-radius: 50%;
+}
+h1 {
+  color: rgba(255, 166, 0, 0.878);
+}
+.fa-youtube {
+  color: red;
+}
