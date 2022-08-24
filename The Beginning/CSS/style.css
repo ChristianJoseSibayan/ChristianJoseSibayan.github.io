@@ -71,8 +71,11 @@ li {
 }
 
 a {
-  padding: 0%;
+  padding-left: 10px;
+  padding-right: 5px;
   margin: 0%;
   display: inline-block;
-  color: #ffffff;
+  color: rgb(29, 165, 199);
+  font-size: x-large;
+  text-decoration: none;
 }
