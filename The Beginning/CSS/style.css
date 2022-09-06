@@ -1,10 +1,3 @@
-body {
-  width: 100%;
-  margin: 20px auto;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
 * {
   padding: 5px;
   padding-top: 0px;
@@ -37,21 +30,22 @@ img:hover {
 }
 
 h1 {
-  position: relative;
+  position: fixed;
   display: inline-block;
   font-size: x-large;
   color: rgb(223, 154, 50);
 }
 
 .Logo {
+  top: 10px;
   font-size: 3ch;
   color: rgb(29, 165, 199);
 }
 
 .fa-youtube {
-  right: 65px;
-  bottom: 45px;
-  position: relative;
+  top: 250px;
+  left: 220px;
+  position: fixed;
   color: red;
 }
 
@@ -84,10 +78,4 @@ a {
   color: rgb(29, 165, 199);
   font-size: medium;
   text-decoration: none;
-}
-
-.embedded {
-  width: 50%;
-  margin: auto;
-  display: inline-block;
 }
